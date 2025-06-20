@@ -1,5 +1,5 @@
 # OOP_N02_T3_2_2025_GROUP12
-Nhóm làm việc
+Nhóm làm việc 12
 
 # THÀNH VIÊN NHÓM:
 1. Phan Trọng Hiếu - 24100082
@@ -8,7 +8,7 @@ Nhóm làm việc
 
 # ỨNG DỤNG: Quản lí bán hàng
 
-## Phân tích đối tượng: 
+Phân tích đối tượng: 
 
 - mahanghoa
 - tenhanghoa
