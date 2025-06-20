@@ -1,4 +1,4 @@
-# OOP_N02_T6_6_2025_3ANHEM
+# OOP_N02_T3_2_2025_GROUP12
 Nhóm làm việc
 
 # THÀNH VIÊN NHÓM:
