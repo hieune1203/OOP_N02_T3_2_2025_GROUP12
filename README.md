@@ -8,10 +8,10 @@ Nhóm làm việc
 
 # ỨNG DỤNG: Quản lí bán hàng
 
-## Phân tích đối tượng: 
+##Phân tích đối tượng: 
 
-*mahanghoa
-*tenhanghoa
-*soluong
-*donvitinh
-*giatien
+- mahanghoa
+- tenhanghoa
+- soluong
+- donvitinh
+- giatien
