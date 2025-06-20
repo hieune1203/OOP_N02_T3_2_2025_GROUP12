@@ -8,10 +8,19 @@ Nhóm làm việc 12
 
 # ỨNG DỤNG: Quản lí bán hàng
 
-Phân tích đối tượng: 
-
+## Phân tích đối tượng: 
+### Hàng hóa
 - mahanghoa
 - tenhanghoa
 - soluong
 - donvitinh
 - giatien
+### Khách hàng
+- tenkhachhang
+- sdt
+- diachi
+### Hóa đơn bán hàng
+- mahoadon
+- ngayban
+- khachhang
+- tongtien
