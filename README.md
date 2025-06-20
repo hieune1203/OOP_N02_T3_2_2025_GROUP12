@@ -7,3 +7,11 @@ Nhóm làm việc
 3. Ngô Việt Anh - 24100149
 
 # ỨNG DỤNG: Quản lí bán hàng
+
+Phân tích đối tượng: 
+
+*mahanghoa
+*tenhanghoa
+*soluong
+*donvitinh
+*giatien
