@@ -1,8 +1,7 @@
-public class Number {
-    public int i;
-}
-public class test_NUMBER {
-    public static void main( String[] args) throws Exception {
+public class testNumber {
+
+
+    public void testCuaToi() {
         Number n1 = new Number();
         Number n2 = new Number();
 
@@ -15,4 +14,6 @@ public class test_NUMBER {
         n1.i = 20;
         System.out.println(n1.i);
     }
+
+    
 }
