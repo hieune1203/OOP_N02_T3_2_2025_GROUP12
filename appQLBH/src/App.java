@@ -4,6 +4,6 @@ public class App {
 
         test_NUMBER test = new test_NUMBER();
 
-        test.hieu();
+        test.test_NUMBER();
     }
 }
