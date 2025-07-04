@@ -1,7 +1,7 @@
 public class Flower{
     public void testFlower(){
         int petalCount = 0;
-        String s = new String ("null");
+        String s = new String;          
         Flower(int petals) {petalCount = petals;}
         Flower(String ss) {s = ss;}
         Flower(String s, int petals){
@@ -9,6 +9,5 @@ public class Flower{
             this(s);
             this.s=s;
         }
-        Flower(){ this("hi", 47)};
-    }
+        Flower(){ this("hi", 47)};}
 }
