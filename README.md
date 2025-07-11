@@ -24,3 +24,4 @@ Nhóm làm việc 12
 - ngayban
 - khachhang
 - tongtien
+https://online.visual-paradigm.com/share.jsp?id=343136313530332d31
