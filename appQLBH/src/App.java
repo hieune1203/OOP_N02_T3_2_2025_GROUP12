@@ -8,6 +8,7 @@ public class App {
        double thanhTien = soLuong * donGia;
 
        GiaoDich gd = new GiaoDich(maKH, maHH, soLuong, thanhTien);
-       
+
        System.out.println(gd.toString());
+    }
 }
