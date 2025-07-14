@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
        String maKH = "PTH12";
-       String maHH = "HH2C";
+       String maHH = "tra chanh";
        int soLuong = 10;
        double donGia = 15000;
 
