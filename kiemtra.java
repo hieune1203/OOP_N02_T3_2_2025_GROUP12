@@ -21,10 +21,7 @@ public String getSoDienThoai() {
 public void setSoDienThoai(String soDienThoai) {
     this.soDienThoai = soDienThoai;
 }
+
 public String toString() {
-    return "KhachHang{" +
-            "maKhachHang='" + maKhachHang + '\'' +
-            ", tenKhachHang='" + tenKhachHang + '\'' +
-            ", soDienThoai='" + soDienThoai + '\'' +
-            '}';
+    return "KhachHang{" + "maKhachHang='" + maKhachHang + '\'' + ", tenKhachHang='" + tenKhachHang + '\'' + ", soDienThoai='" + soDienThoai + '\'' + '}';
 }
