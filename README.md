@@ -10,18 +10,20 @@ Nhóm làm việc 12
 
 ## Phân tích đối tượng: 
 ### Hàng hóa
-- mahanghoa
-- tenhanghoa
-- soluong
-- donvitinh
-- giatien
+- maHangHoa
+- tenHangHoa
+- soLuong
+- giaTien
 ### Khách hàng
-- tenkhachhang
-- sdt
-- diachi
-### Hóa đơn bán hàng
-- mahoadon
-- ngayban
-- khachhang
-- tongtien
-https://online.visual-paradigm.com/share.jsp?id=343136313530332d31
+- tenKhachHang
+- soDienThoai
+- diaChi
+- maKhachHang
+### Dao dich
+- maKhachHang
+- maHangHoa
+- soLuong
+- thanhtien
+
+
+##visual-paradigm:   https://online.visual-paradigm.com/share.jsp?id=343136313530332d31
