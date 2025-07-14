@@ -1,13 +1,12 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hieu dep zai!!!");
-        User user = new User("Phan Trong Hieu", "hieudzvcl@gmail.com", "hieune1203");
-        System.out.println(user);
+       String maKH = "PTH12";
+       String maHH = "HH2C";
+       int soLuong = 10;
+       double donGia = 15000;
 
-        user.setName("Hieu dep traiaaia");
-        user.setEmail("hieune@gmail.com");
-
-        System.out.println("Updated user info:");
-        System.out.println(user);
+       double thanhTien = soLuong * donGia;
+       GiaoDich gd = new GiaoDich(maKH, maHH, soLuong, thanhTien);
+       System.out.println(gd.toString());
     }
 }
