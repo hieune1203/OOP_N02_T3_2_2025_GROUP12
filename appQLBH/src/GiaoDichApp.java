@@ -3,7 +3,9 @@ import java.util.Scanner;
 
 public class GiaoDichApp {
 
+    // Khai báo và khởi tạo danh sách giao dịch
     ArrayList<GiaoDich> danhSachGiaoDich = new ArrayList<>();
+
     public ArrayList<GiaoDich> themGiaoDich(GiaoDich g) {
         danhSachGiaoDich.add(g);
         return danhSachGiaoDich;
@@ -43,6 +45,10 @@ public class GiaoDichApp {
     }
 
     public void hienThiGiaoDich() {
+        if (danhSachGiaoDich == null || danhSachGiaoDich.isEmpty()) {
+            System.out.println("Danh sách giao dịch hiện đang rỗng.");
+            return;
+        }
         for (GiaoDich g : danhSachGiaoDich) {
             System.out.println("Mã khách hàng: " + g.maKhachHang);
             System.out.println("Mã hàng hóa: " + g.maHangHoa);
