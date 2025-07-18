@@ -1,8 +1,8 @@
 public class GiaoDich{
-    private String maKhachHang;
-    private String maHangHoa;
-    private int soLuong;
-    private double thanhTien;
+    public String maKhachHang;
+    public String maHangHoa;
+    public int soLuong;
+    public double thanhTien;
     
     public GiaoDich(String maKH, String maHH, int soLuong, double thanhTien) {
         this.maKhachHang = maKH;
