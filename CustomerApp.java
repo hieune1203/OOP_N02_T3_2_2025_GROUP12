@@ -10,9 +10,9 @@ public class CustomerApp {
         return listCustomers;
     }
 
-    public ArrayList<Customer> deleteCustomer(String customerID) {
+    public ArrayList<Customer> deleteCustomer(String customerId) {
         for (int i = 0; i < listCustomers.size(); i++) {
-            if (listCustomers.get(i).customerID.equals(customerID)) {
+            if (listCustomers.get(i).customerID.equals(customerId)) {
                 listCustomers.remove(i);
                 break;
             }
@@ -20,24 +20,15 @@ public class CustomerApp {
         return listCustomers;
     }
 
-    public void readCustomers() {
-        for (Customer c : listCustomers) {
-            System.out.println("Customer ID: " + c.customerID);
-            System.out.println("Name: " + c.name);
-            System.out.println("Email: " + c.email);
-            System.out.println();
-        }
-    }
-
-    public ArrayList<Customer> editCustomer(String customerID) {
+    public ArrayList<Customer> editCustomer(String customerId) {
         Scanner scanner = new Scanner(System.in);
 
         for (int i = 0; i < listCustomers.size(); i++) {
-            if (listCustomers.get(i).customerID.equals(customerID)) {
-                System.out.print("Enter new name: ");
+            if (listCustomers.get(i).customerID.equals(customerId)) {
+                System.out.print("Nhập tên mới: ");
                 String newName = scanner.nextLine();
 
-                System.out.print("Enter new email: ");
+                System.out.print("Nhập email mới: ");
                 String newEmail = scanner.nextLine();
 
                 listCustomers.get(i).name = newName;
@@ -47,5 +38,14 @@ public class CustomerApp {
         }
 
         return listCustomers;
+    }
+
+    public void readCustomers() {
+        for (Customer c : listCustomers) {
+            System.out.println("ID: " + c.customerID);
+            System.out.println("Tên: " + c.name);
+            System.out.println("Email: " + c.email);
+            System.out.println();
+        }
     }
 }
