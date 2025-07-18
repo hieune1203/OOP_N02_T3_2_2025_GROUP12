@@ -2,7 +2,6 @@ public class TestGiaoDichApp {
     public static void chayThu() {
         GiaoDichApp app = new GiaoDichApp();
 
-        // Thêm giao dịch
         app.themGiaoDich(new GiaoDich("KH001", "HH01", 3, 60000));
         app.themGiaoDich(new GiaoDich("KH002", "HH02", 5, 100000));
 
