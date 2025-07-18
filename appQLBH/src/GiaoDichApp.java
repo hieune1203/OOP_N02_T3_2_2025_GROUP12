@@ -2,8 +2,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class GiaoDichApp {
-
-    // Khai báo và khởi tạo danh sách giao dịch
     ArrayList<GiaoDich> danhSachGiaoDich = new ArrayList<>();
 
     public ArrayList<GiaoDich> themGiaoDich(GiaoDich g) {
@@ -45,7 +43,7 @@ public class GiaoDichApp {
     }
 
     public void hienThiGiaoDich() {
-        if (danhSachGiaoDich == null || danhSachGiaoDich.isEmpty()) {
+        if (danhSachGiaoDich.isEmpty()) {
             System.out.println("Danh sách giao dịch hiện đang rỗng.");
             return;
         }
