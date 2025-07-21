@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Scanner;
 class TaoHangHoa {
 
     ArrayList<HangHoa> dsHangHoa = new ArrayList<>();
