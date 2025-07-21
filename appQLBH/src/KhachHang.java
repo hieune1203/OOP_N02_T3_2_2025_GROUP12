@@ -1,4 +1,5 @@
 public class KhachHang {
+<<<<<<< HEAD
     private String maKhachHang;
     private String tenKhachHang;
     private String soDienThoai;
@@ -35,5 +36,27 @@ public class KhachHang {
 
     public String toString() {
         return "KhachHang{" + "maKhachHang='" + maKhachHang + '\'' + ", tenKhachHang='" + tenKhachHang + '\'' + ", soDienThoai='" + soDienThoai + '\'' + '}';
+=======
+    public String maKhachHang;
+    public String tenKhachHang;
+    public String diaChi;
+    public String soDienThoai;
+
+    public KhachHang(String maKH, String tenKH, String diaChi, String sdt) {
+        this.maKhachHang = maKH;
+        this.tenKhachHang = tenKH;
+        this.diaChi = diaChi;
+        this.soDienThoai = sdt;
+    }
+
+    @Override
+    public String toString() {
+        return "KhachHang{" +
+                "maKhachHang='" + maKhachHang + '\'' +
+                ", tenKhachHang='" + tenKhachHang + '\'' +
+                ", diaChi='" + diaChi + '\'' +
+                ", soDienThoai='" + soDienThoai + '\'' +
+                '}';
+>>>>>>> e187f79a18cd2e417d382c9f69ff7cc986e051bf
     }
 }
