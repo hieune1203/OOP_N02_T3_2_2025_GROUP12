@@ -33,7 +33,6 @@ public class KhachHang {
         this.soDienThoai = soDienThoai;
     }
 
-    @Override
     public String toString() {
         return "KhachHang{" + "maKhachHang='" + maKhachHang + '\'' + ", tenKhachHang='" + tenKhachHang + '\'' + ", soDienThoai='" + soDienThoai + '\'' + '}';
     }
