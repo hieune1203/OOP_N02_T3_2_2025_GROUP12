@@ -4,8 +4,6 @@ public class App {
         
         taoHH.taoMoiHangHoa(); 
         taoHH.taoMoiHangHoa(); 
-
-       
         taoHH.hienThiDanhSach();
     }
 }

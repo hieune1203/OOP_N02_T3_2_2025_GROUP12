@@ -1,5 +1,3 @@
-
-
 class HangHoa {
     private String maHang;
     private String tenHang;

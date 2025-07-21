@@ -8,18 +8,18 @@ class TaoHangHoa {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Nhập mã hàng: ");
-        String ma = scanner.nextLine();
+        String maHang = scanner.nextLine();
 
         System.out.print("Nhập tên hàng: ");
-        String ten = scanner.nextLine();
+        String tenHang = scanner.nextLine();
 
         System.out.print("Nhập giá bán: ");
-        double gia = scanner.nextDouble();
+        double giaBan = scanner.nextDouble();
 
         System.out.print("Nhập số lượng tồn kho: ");
-        int sl = scanner.nextInt();
+        int soLuong = scanner.nextInt();
 
-        HangHoa hh = new HangHoa(ma, ten, gia, sl);
+        HangHoa hh = new HangHoa(maHang, tenHang, giaBan, soLuong);
         dsHangHoa.add(hh);
 
         System.out.println(" Đã thêm hàng hóa mới thành công!");
