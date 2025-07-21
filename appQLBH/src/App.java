@@ -1,8 +1,5 @@
 public class App {
-    public static void main (String[] args) thows Exception {
-        TestKhachHang.test();
-        TestKhachHangApp.test();
-        
+    public static void main (String[] args) throws Exception {
+        TestKhachHangApp.chayThu();
     }
-
 }
