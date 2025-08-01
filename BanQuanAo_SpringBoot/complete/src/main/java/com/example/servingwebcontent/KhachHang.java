@@ -1,5 +1,4 @@
 public class KhachHang {
-<<<<<<< HEAD
     private String maKhachHang;
     private String tenKhachHang;
     private String soDienThoai;
@@ -36,7 +35,6 @@ public class KhachHang {
 
     public String toString() {
         return "KhachHang{" + "maKhachHang='" + maKhachHang + '\'' + ", tenKhachHang='" + tenKhachHang + '\'' + ", soDienThoai='" + soDienThoai + '\'' + '}';
-=======
     public String maKhachHang;
     public String tenKhachHang;
     public String diaChi;
@@ -57,6 +55,5 @@ public class KhachHang {
                 ", diaChi='" + diaChi + '\'' +
                 ", soDienThoai='" + soDienThoai + '\'' +
                 '}';
->>>>>>> e187f79a18cd2e417d382c9f69ff7cc986e051bf
     }
 }
