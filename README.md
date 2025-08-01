@@ -1,5 +1,5 @@
-# OOP_N02_T3_2_2025_GROUP12
-Nhóm làm việc 12
+# OOP_N02_T3_2_2025_GROUP2
+Nhóm làm việc 2
 
 # THÀNH VIÊN NHÓM:
 1. Phan Trọng Hiếu - 24100082
@@ -9,9 +9,9 @@ Nhóm làm việc 12
 # ỨNG DỤNG: Quản lí bán hàng
 
 ## Phân tích đối tượng: 
-### Hàng hóa
-- maHangHoa
-- tenHangHoa
+### Quần áo
+- maHQuanao
+- tenQuanao
 - soLuong
 - giaTien
 ### Khách hàng
@@ -19,7 +19,7 @@ Nhóm làm việc 12
 - soDienThoai
 - diaChi
 - maKhachHang
-### Dao dich
+### Giao dich
 - maKhachHang
 - maHangHoa
 - soLuong
