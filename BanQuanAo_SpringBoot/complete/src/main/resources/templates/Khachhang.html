@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Quản lý Khách hàng</title>
+</head>
+<body>
+<h2>Danh sách Khách hàng</h2>
+<table border="1">
+    <tr>
+        <th>Mã KH</th>
+        <th>Tên KH</th>
+        <th>Địa chỉ</th>
+    </tr>
+    <tr th:each="kh : ${dsKH}">
+        <td th:text="${kh.maKH}"></td>
+        <td th:text="${kh.tenKH}"></td>
+        <td th:text="${kh.diaChi}"></td>
+    </tr>
+</table>
+
+<h2>Thêm khách hàng</h2>
+<form action="#" th:action="@{/khachhang}" th:object="${khachHang}" method="post">
+    Mã KH: <input type="number" th:field="*{maKH}" /><br/>
+    Tên KH: <input type="text" th:field="*{tenKH}" /><br/>
+    Địa chỉ: <input type="text" th:field="*{diaChi}" /><br/>
+    <button type="submit">Thêm</button>
+</form>
+</body>
+</html>
+
